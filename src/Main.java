@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Bienvenido a la inmersión Java!");
+        System.out.println("Bienvenido a screenmatch!");
         //System.out.println("Pelicula Se levanta el viento");
 
         //Declaración de variables
@@ -10,6 +10,7 @@ public class Main {
         double evaluacion = 4.8;
         boolean incluidoEnElPlanBasico = true;
         double mediaEvaluacionUsuario = 0;
+        int maximoNotas = 0;
 
         String nombre = "Se levanta el viento";
         String sinopsis = """
@@ -36,7 +37,18 @@ public class Main {
             double nota = teclado.nextDouble();
             mediaEvaluacionUsuario = mediaEvaluacionUsuario + nota;
         }
-        System.out.println("La nota media de la pelicula "+nombre+" es: "+mediaEvaluacionUsuario / 3);
+        System.out.println("La nota media de la pelicula "+nombre+" calculada con el ciclo FOR es: "+mediaEvaluacionUsuario / 3);
+        mediaEvaluacionUsuario = 0;
+
+        while (maximoNotas <= 2) {
+            Scanner teclado = new Scanner(System.in);
+            System.out.println("Ingresa la nota que le darías a la pelicula "+nombre+": ");
+            double nota = teclado.nextDouble();
+            mediaEvaluacionUsuario = mediaEvaluacionUsuario + nota;
+            maximoNotas++;
+        }
+
+        System.out.println("La nota media de la pelicula "+nombre+" calculada con el ciclo WHILE es: "+mediaEvaluacionUsuario / 3);
     }
 }
 
