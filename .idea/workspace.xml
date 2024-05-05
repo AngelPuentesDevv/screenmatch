@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="33b62e0e-3f6b-4d40-8a01-f4d19d477e84" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modelo/Titulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NewAngel/index.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../NewAngel/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -16,16 +20,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AngelPuentesDevv/screenmatch.git",
-    "accountId": "c92da9a0-0056-4c5a-bdb7-d85cf8f703a7"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AngelPuentesDevv&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AngelPuentesDevv/screenmatch.git&quot;,
+    &quot;accountId&quot;: &quot;c92da9a0-0056-4c5a-bdb7-d85cf8f703a7&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -42,7 +64,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "main__02",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -84,11 +106,35 @@
       <option name="presentableId" value="Default" />
       <updated>1714802875357</updated>
       <workItem from="1714802876431" duration="1877000" />
-      <workItem from="1714835493647" duration="5385000" />
+      <workItem from="1714835493647" duration="7829000" />
+      <workItem from="1714934779871" duration="10153000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main_02" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

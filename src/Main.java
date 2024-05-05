@@ -1,55 +1,55 @@
+import modelo.Serie;
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Bienvenido a screenmatch!");
-        //System.out.println("Pelicula Se levanta el viento");
 
-        //Declaración de variables
-        int fechaDeLanzamiento = 2013;
-        double evaluacion = 4.8;
-        boolean incluidoEnElPlanBasico = true;
-        double mediaEvaluacionUsuario = 0;
-        int maximoNotas = 0;
+        Principal principal = new Principal();
+        principal.muestraElMenu();
 
-        String nombre = "Se levanta el viento";
-        String sinopsis = """
-                Historia de un romance en medio de la segunda guerra mundial en Japón.         
-                """;
-        System.out.println("Pelicula: "+nombre);
-        System.out.println("Sinopsis: "+sinopsis);
-        System.out.println("Fecha de lanzamiento: "+fechaDeLanzamiento);
-        System.out.println("Calificación: "+evaluacion);
-        System.out.println("Incluido en plan estándar: "+incluidoEnElPlanBasico);
+        /*
+        //Muestra en consola la ficha técnica sin utilizar métodos de clase
+        Pelicula seLevantaElViento = new Pelicula();
+        seLevantaElViento.setNombre("Se levanta el viento");
+        seLevantaElViento.setSinopsis("Romance en medio de la guerra");
+        seLevantaElViento.setFechaDeLanzamiento(2013);
+        seLevantaElViento.setTiempoDeDuración(120);
+        seLevantaElViento.setEvaluacion(4.9);
+        seLevantaElViento.setIncluidoEnElPlanBasico(false);
 
-        double mediaEvaluacion = (4.8 + 4.5 + 4.0) / 3;
-        System.out.println("La calificación media de "+nombre+" es: "+mediaEvaluacion);
+        System.out.println("Pelicula: "+seLevantaElViento.getNombre());
+        System.out.println("Sinopsis: "+seLevantaElViento.getSinopsis());
+        System.out.println("Lanzamiento: "+seLevantaElViento.getFechaDeLanzamiento());
+        System.out.println("Duración: "+seLevantaElViento.getTiempoDeDuración()+" minutos");
+        System.out.println("Calificación: "+seLevantaElViento.getEvaluacion()+"/5");
+        System.out.println("Incluido en plan estándar: "+seLevantaElViento.isIncluidoEnElPlanBasico());
 
-        if (fechaDeLanzamiento >= 2024) {
-            System.out.println("Pelicula reciente!");
-        } else {
-            System.out.println("Pelicula retro que vale la pena ver");
-        }
+        //Muestra en consola la ficha técnica utilizando el método de clase "muestraFichaTecnica
+        Pelicula elCastilloVagabundo = new Pelicula();
+        elCastilloVagabundo.setNombre("El castillo vagabundo");
+        elCastilloVagabundo.setSinopsis("Aventura de encuentro consigo mismo");
+        elCastilloVagabundo.setDirector("Hayao Miyazaki");
+        elCastilloVagabundo.setFechaDeLanzamiento(2004);
+        elCastilloVagabundo.setTiempoDeDuración(120);
+        elCastilloVagabundo.setEvaluacion(4.8);
+        elCastilloVagabundo.setIncluidoEnElPlanBasico(false);
+        elCastilloVagabundo.muestraFichaTecnica();
+        elCastilloVagabundo.muestraFichaTecnicaPelicula();
 
-        for (int i = 0; i < 3; i++) {
-            Scanner teclado = new Scanner(System.in);
-            System.out.println("Ingresa la nota que le darías a la pelicula "+nombre+": ");
-            double nota = teclado.nextDouble();
-            mediaEvaluacionUsuario = mediaEvaluacionUsuario + nota;
-        }
-        System.out.println("La nota media de la pelicula "+nombre+" calculada con el ciclo FOR es: "+mediaEvaluacionUsuario / 3);
-        mediaEvaluacionUsuario = 0;
+        Serie deathNote = new Serie();
+        deathNote.setNombre("Death Note");
+        deathNote.setSinopsis("Confrontación entre el bien y el mal");
+        deathNote.setFechaDeLanzamiento(2006);
+        deathNote.setEvaluacion(5.0);
+        deathNote.setIncluidoEnElPlanBasico(true);
+        deathNote.setTemporadas(1);
+        deathNote.setEpisodiosPorTemporada(37);
+        deathNote.setDuracionEnMinutosPorEpisodio(21);
+        deathNote.muestraFichaTecnica();
+        deathNote.muestraFichaTecnicaSerie();
 
-        while (maximoNotas <= 2) {
-            Scanner teclado = new Scanner(System.in);
-            System.out.println("Ingresa la nota que le darías a la pelicula "+nombre+": ");
-            double nota = teclado.nextDouble();
-            mediaEvaluacionUsuario = mediaEvaluacionUsuario + nota;
-            maximoNotas++;
-        }
-
-        System.out.println("La nota media de la pelicula "+nombre+" calculada con el ciclo WHILE es: "+mediaEvaluacionUsuario / 3);
+         */
     }
 }
-
 
